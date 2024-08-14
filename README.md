@@ -61,4 +61,4 @@ Feel free to contribute to the project by submitting issues or pull requests.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the Apache License. See the LICENSE file for details.
