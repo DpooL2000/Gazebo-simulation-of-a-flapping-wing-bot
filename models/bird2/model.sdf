@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.7'>
+  <model name='bird2'>
+    <link name='dummy'>
+      <inertial>
+        <pose>0.018317 0.0192 -0.007466 0 -0 0</pose>
+        <!--weight of the gears, battery and components was added to dummy link-->
+        <mass>0.4080716</mass>
+        <inertia>
+          <ixx>5.79725e-05</ixx>
+          <ixy>3.35936e-05</ixy>
+          <ixz>2.34318e-05</ixz>
+          <iyy>0.000884561</iyy>
+          <iyz>-7.85447e-06</iyz>
+          <izz>0.0008822</izz>
+        </inertia>
+      </inertial>
+      <collision name='dummy_fixed_joint_lump__link_0_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_0.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_1_collision_1'>
+        <pose>0.14 0.0215 0.005 -1.5708 0.57201 -0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_1.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_2_collision_2'>
+        <pose>1e-06 0.043 -0.005 -1.5708 0 2e-06</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_2.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_3_collision_3'>
+        <pose>0 0.024 0.075 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_3.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_5_collision_4'>
+        <pose>0.2 0.022 0.075 -1.5708 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_5.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_7_collision_5'>
+        <pose>0 0.023 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_7.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='dummy_fixed_joint_lump__link_9_collision_6'>
+        <pose>0 0.023 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_9.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='dummy_fixed_joint_lump__link_0_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_0.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_1_visual_1'>
+        <pose>0.14 0.0215 0.005 -1.5708 0.57201 -0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_1.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_2_visual_2'>
+        <pose>1e-06 0.043 -0.005 -1.5708 0 2e-06</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_2.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_3_visual_3'>
+        <pose>0 0.024 0.075 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_3.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_5_visual_4'>
+        <pose>0.2 0.022 0.075 -1.5708 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_5.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_7_visual_5'>
+        <pose>0 0.023 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_7.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='dummy_fixed_joint_lump__link_9_visual_6'>
+        <pose>0 0.023 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_9.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='joint_4' type='revolute'>
+      <pose relative_to='dummy'>0 0.0315 0.0375 1.5708 -0 0</pose>
+      <parent>dummy</parent>
+      <child>link_4</child>
+      <axis>
+        <xyz>-1 0 0</xyz>
+        <limit>
+          <lower>-0.34906</lower>
+          <upper>0.34906</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_4'>
+      <pose relative_to='joint_4'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.034546 0.022687 -0.22421 0 -0 0</pose>
+        <!--original mass was added to dummy link-->
+        <mass>0.000002</mass>
+        <inertia>
+          <ixx>0.00039334</ixx>
+          <ixy>-3.8751e-06</ixy>
+          <ixz>3.8497e-05</ixz>
+          <iyy>0.00043498</iyy>
+          <iyz>3.9291e-05</iyz>
+          <izz>4.9572e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_4_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_4.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_4_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_4.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='joint_6' type='revolute'>
+      <pose relative_to='dummy'>0.109 0.014499 0.0375 1.5708 7e-06 7e-06</pose>
+      <parent>dummy</parent>
+      <child>link_6</child>
+      <axis>
+        <xyz>-1 0 0</xyz>
+        <limit>
+          <lower>-0.34906</lower>
+          <upper>0.34906</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_6'>
+      <pose relative_to='joint_6'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.076465 0.022688 0.22422 0 -0 0</pose>
+        <!--original mass was added to dummy link-->
+        <mass>0.000002</mass>
+        <inertia>
+          <ixx>0.0003933</ixx>
+          <ixy>-3.8767e-06</ixy>
+          <ixz>-3.8513e-05</ixz>
+          <iyy>0.00043493</iyy>
+          <iyz>-3.9288e-05</iyz>
+          <izz>4.9561e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_6_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_6.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_6_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_6.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='joint_8' type='revolute'>
+      <pose relative_to='dummy'>-0.14971 0.023 0.0265 1.5708 -0 0</pose>
+      <parent>dummy</parent>
+      <child>link_8</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.52</lower>
+          <upper>0.52</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_8'>
+      <pose relative_to='joint_8'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.14737 5.2e-05 -0.042891 0 -0 0</pose>
+        <!--original mass was added to dummy link-->
+        <mass>0.0000005</mass>
+        <inertia>
+          <ixx>2.8137e-06</ixx>
+          <ixy>4.3881e-09</ixy>
+          <ixz>-1.4142e-06</ixz>
+          <iyy>1.9017e-05</iyy>
+          <iyz>1.5548e-09</iyz>
+          <izz>1.6205e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_8_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_8.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_8_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_8.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='joint_10' type='revolute'>
+      <pose relative_to='dummy'>-0.14971 0.023 0.0265 1.5708 -0 0</pose>
+      <parent>dummy</parent>
+      <child>link_10</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.52</lower>
+          <upper>0.52</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_10'>
+      <pose relative_to='joint_10'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.14738 5.2e-05 0.042883 0 -0 0</pose>
+        <!--original mass was added to dummy link-->
+        <mass>0.0000005</mass>
+        <inertia>
+          <ixx>2.8136e-06</ixx>
+          <ixy>4.4027e-09</ixy>
+          <ixz>1.414e-06</ixz>
+          <iyy>1.9016e-05</iyy>
+          <iyz>-1.5539e-09</iyz>
+          <izz>1.6204e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_10_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_10.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_10_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bird2/meshes/link_10.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <frame name='joint_2' attached_to='link_1'>
+      <pose>-0.1123 0.084193 0.0215 0 0 -0.57201</pose>
+    </frame>
+    <frame name='link_2' attached_to='joint_2'/>
+    <frame name='joint_1' attached_to='link_0'>
+      <pose>0.14 0.0215 0.005 -1.5708 0.57201 0</pose>
+    </frame>
+    <frame name='link_1' attached_to='joint_1'/>
+    <frame name='joint_3' attached_to='link_0'>
+      <pose>0 0.024 0.075 -1.5708 0 0</pose>
+    </frame>
+    <frame name='link_3' attached_to='joint_3'/>
+    <frame name='joint_5' attached_to='link_0'>
+      <pose>0.2 0.022 0.075 -1.5708 -0 -3.14159</pose>
+    </frame>
+    <frame name='link_5' attached_to='joint_5'/>
+    <frame name='joint_7' attached_to='link_0'>
+      <pose>0 0.023 0 1.5708 -0 0</pose>
+    </frame>
+    <frame name='link_7' attached_to='joint_7'/>
+    <frame name='joint_9' attached_to='link_0'>
+      <pose>0 0.023 0 1.5708 -0 0</pose>
+    </frame>
+    <frame name='link_9' attached_to='joint_9'/>
+    <frame name='dummy_joint' attached_to='dummy'>
+      <pose>0 0 0 0 -0 0</pose>
+    </frame>
+    <frame name='link_0' attached_to='dummy_joint'/>
+    <plugin name="flapping_controller_plugin" filename="libflapping_controller.so">
+	    <namespace_model>bird2</namespace_model>
+    </plugin>
+    <plugin name="pitching_controller_plugin" filename="libpitching_controller.so">
+	    <namespace_model1>bird2</namespace_model1>
+    </plugin>
+    <plugin name="rolling_controller_plugin" filename="librolling_controller.so">
+	    <namespace_model2>bird2</namespace_model2>
+    </plugin>
+    <plugin name="lift_drag_plugin" filename="liblift_drag_plugin.so">
+	    <namespace_model3>bird2</namespace_model3>
+    </plugin>
+  </model>
+</sdf>
