@@ -17,7 +17,6 @@ This repository contains the code for a flight simulation project designed to an
   - `simple.launch`: Launch file to start the simulation.
 - **`models/`**: Gazebo models used in the simulation.
   - `bird2/`: Directory containing the bird model.
-  - `temp/`: Temporary models (if any).
 - **`src/`**: Source files and UI files.
   - `flapping_controller.cpp`: Implementation of the flapping controller.
   - `flight_controller_gui.cpp`: Implementation of the GUI.
