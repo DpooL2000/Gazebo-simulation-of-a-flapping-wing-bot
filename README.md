@@ -6,7 +6,7 @@ This repository contains the code for a flight simulation project designed to an
 
 - **`CMakeLists.txt`**: Build configuration file for CMake.
 - **`package.xml`**: ROS package configuration file.
-- **`include/`**: Header files for the project.
+- **`include/`**: Header files for the project(just included but not realy used as headers).
   - `flapping_controller.h`: Header for the flapping controller.
   - `flight_controller_gui.h`: Header for the GUI components.
   - `lift_drag_plugin.h`: Header for the lift and drag plugin.
@@ -46,6 +46,10 @@ This repository contains the code for a flight simulation project designed to an
 4. **Launch the Simulation:**
    ```bash
    roslaunch your_package_name simple.launch
+
+5. **Launch the Simulation controller GUI:**
+   ```bash
+   rosrun your_package_name flight_ontroller_gui.cpp
 
 ## Features
 
